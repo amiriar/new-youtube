@@ -18,7 +18,7 @@ const SearchFeed = () => {
                 <Typography variant='h4' fontWeight={'bold'} mb={2} sx={{ color : "white" }}>
                     Search Results for: <span style={{ color:"#FC5103" }}>{searchTerm}</span> Videos
                 </Typography>
-                <Videos videos={videos}/>
+                <Videos videos={videos} direction="row" />
             </Box>
     );
 };

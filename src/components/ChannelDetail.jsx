@@ -27,7 +27,7 @@ const ChannelDetail = () => {
             </Box>
             <Box display={"flex"} p={"2"}>
                 <Box sx={{ mr: { sm: "100px" } }}/>
-                    <Videos videos={videos} />
+                    <Videos videos={videos} direction={"row"} />
             </Box>
         </Box>
     );
